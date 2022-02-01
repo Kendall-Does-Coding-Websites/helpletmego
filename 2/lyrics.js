@@ -2,76 +2,77 @@
 const lyrics = [{
         name: "help let me go",
         lyrics: [
-        "He was just a dolphin"
-        "Swimming in the sea"
-        "With his dolphin friends"
-        "Happy as can be"
-        "Until one day he went"
-        "And ventured onto land"
-        "And he got bitten by"
-        "A radioactive man"
-        "Now he's Dolphin Man"
-        "Half dolphin, half man"
-        "Hear him screech at night"
-        "'Cause he just wants a friend"
-        "He'll be quite a fright (Jesus Christ)"
-        "If you run into him"
-        "In the dark abandoned house where he lives"
-        "Oh"
-        "You know he may come off strong"
-        "But he's not what he seems"
-        "If he ever catches you"
-        "You can bet that you'll scream"
-        "Like"
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Let me go tonight""
-        "You'll scream"
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Stop kidnapping me""
-        "She was just a lady"
-        "Not a care in the world"
-        "'Til she saw some grown men"
-        "Kidnapping a girl"
-        "She said"
-        ""Help, let me go""
-        "So she sprung into action"
-        "Then she looked right at a necklace"
-        "And became Scarlett Johansson"
-        "Then she kicked all their asses"
-        "Varli, savior of the masses"
-        "Don't know where that necklace came from"
-        ""Love more, hate less", that's the message"
-        "Dolphin Man saw her on TV"
-        "And gave her a call"
-        "They formed the best crime-fighting team in the world"
-        "Oh"
-        "Then they saved the president"
-        "From an alien race"
-        "It was all over the news"
-        "He was screaming in space"
-        "Like"
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Let me go tonight""
-        "He said"
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Stop kidnapping me""
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Let me go tonight""
-        "He said"
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Help, let me go""
-        ""Stop kidnapping me""
+        "He was just a dolphin",
+        "Swimming in the sea",
+        "With his dolphin friends",
+        "Happy as can be",
+        "Until one day he went",
+        "And ventured onto land",
+        "And he got bitten by",
+        "A radioactive man",
+        "Now he's Dolphin Man",
+        "Half dolphin, half man",
+        "Hear him screech at night",
+        "'Cause he just wants a friend",
+        "He'll be quite a fright (Jesus Christ)",
+        "If you run into him",
+        "In the dark abandoned house where he lives",
+        "Oh",
+        "You know he may come off strong",
+        "But he's not what he seems",
+        "If he ever catches you",
+        "You can bet that you'll scream",
+        "Like",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Let me go tonight"",
+        "You'll scream",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Stop kidnapping me"",
+        "She was just a lady",
+        "Not a care in the world",
+        "'Til she saw some grown men",
+        "Kidnapping a girl",
+        "She said",
+        ""Help, let me go"",
+        "So she sprung into action",
+        "Then she looked right at a necklace",
+        "And became Scarlett Johansson",
+        "Then she kicked all their asses",
+        "Varli, savior of the masses",
+        "Don't know where that necklace came from",
+        ""Love more, hate less", that's the message",
+        "Dolphin Man saw her on TV",
+        "And gave her a call",
+        "They formed the best crime-fighting team in the world",
+        "Oh",
+        "Then they saved the president",
+        "From an alien race",
+        "It was all over the news",
+        "He was screaming in space",
+        "Like",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Let me go tonight"",
+        "He said",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Stop kidnapping me"",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Let me go tonight"",
+        "He said",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Help, let me go"",
+        ""Stop kidnapping me"",
         ],
     }
+ ];
 
