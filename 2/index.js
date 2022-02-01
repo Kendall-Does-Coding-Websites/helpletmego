@@ -1,4 +1,3 @@
-
 const help_let_me_go = lyrics.find(
   (x) => x.name === "help let me go"
 ).lyrics;
@@ -18,15 +17,15 @@ const slider_help_let_me_go = document.querySelector(".slider");
 const toggle_help_let_me_go = document.querySelector(".round");
 toggle_help_let_me_go.addEventListener("click", modeSwitch);
 
-let isLight_little_saint_nick = true;
+let isLight_help_let_me_go = true;
 
 function modeSwitch() {
-  isLight_little_saint_nick = !isLight_little_saint_nick;
+  isLight_help_let_me_go  = !isLight_help_let_me_go;
 
-  isLight_little_saint_nick
-    ? (slider_little_saint_nick.style.backgroundImage =
+  isLight_help_let_me_go
+    ? (slider_help_let_me_go.style.backgroundImage =
         "url('../../images/day.png')")
-    : (slider_little_saint_nick.style.backgroundImage =
+    : (slider_help_let_me_go .style.backgroundImage =
         "url('../../images/night.png')");
 
   const rootElement = document.body;
