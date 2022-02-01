@@ -25,7 +25,7 @@ function modeSwitch() {
   isLight_help_let_me_go
     ? (slider_help_let_me_go.style.backgroundImage =
         "url('../../images/day.png')")
-    : (slider_help_let_me_go .style.backgroundImage =
+    : (slider_help_let_me_go.style.backgroundImage =
         "url('../../images/night.png')");
 
   const rootElement = document.body;
