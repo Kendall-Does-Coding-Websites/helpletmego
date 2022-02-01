@@ -1,22 +1,22 @@
 
-const little_saint_nick = lyrics.find(
-  (x) => x.name === "little saint nick"
+const help_let_me_go = lyrics.find(
+  (x) => x.name === "help let me go"
 ).lyrics;
 
-const little_saint_nick__container =
+const help_let_me_go__container =
   document.getElementsByClassName("lyrics")[0];
 
-little_saint_nick.map((item) => {
+help_let_me_go.map((item) => {
   const p = document.createElement("p");
   const textNode = document.createTextNode(item);
   p.appendChild(textNode);
-  return little_saint_nick__container.appendChild(p);
+  return help_let_me_go__container.appendChild(p);
 });
 
-const slider_little_saint_nick = document.querySelector(".slider");
+const slider_help_let_me_go = document.querySelector(".slider");
 
-const toggle_little_saint_nick = document.querySelector(".round");
-toggle_little_saint_nick.addEventListener("click", modeSwitch);
+const toggle_help_let_me_go = document.querySelector(".round");
+toggle_help_let_me_go.addEventListener("click", modeSwitch);
 
 let isLight_little_saint_nick = true;
 
