@@ -1,0 +1,354 @@
+:root {
+	--bg-color: white;
+	--font-color-red: red;
+	--font-color-blue: blue;
+	--font-color-heading: #1ABC9C;
+	--font-color-heading2: #1ABC9C;
+	--font-color-sub-heading: violet;
+	--font-color-christmas_message: violet;
+	--lyrics-text-color: #1ABC9C;
+	--yml-btn: #1ABC9C;
+}
+
+.darkMode {
+	--bg-color: #d9d9d9;
+	--font-color-red: #E67E22;
+	--font-color-blue: blue;
+	--font-color-heading: lightgreen;
+	--font-color-heading2: darkgreen;
+	--font-color-sub-heading: #3498DB;
+	--font-color-christmas_message: purple;
+	--lyrics-text-color: #1E88E5;
+	--yml-btn: #1C2833; 
+}
+
+
+/* Body */
+
+
+/* Needs editting, the christmastree images need to be called in a div not in the BODY */
+
+body {
+	user-select: none;
+	/* Normal (chrome)*/
+	;
+	-webkit-touch-callout: none;
+	/* iOS Safari */
+	;
+	-webkit-user-select: none;
+	/* Safari */
+	;
+	-khtml-user-select: none;
+	/* Konqueror HTML */
+	;
+	-moz-user-select: none;
+	/* Old versions of Firefox */
+	;
+	-ms-user-select: none;
+	/* Internet Explorer/Edge */
+	;
+	align-items: center;
+	text-align: center;
+	background-repeat: no-repeat, no-repeat;
+	background-position: right bottom, left bottom;
+	background-color: var(--bg-color);
+}
+
+.image-a {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.image-b {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+/* Headings, etc */
+
+.heading {
+	color: var(--font-color-red);
+}
+
+.lyrics-heading {
+	color: var(--font-color-heading);
+}
+
+.lud {
+	color: var(--font-color-heading2);
+}
+
+.lud2 {
+	color: var(--font-color-sub-heading);
+}
+
+.christmas_day_message {
+	display: none;
+}
+
+.christmas_day_message p {
+	color: var(--font-color-christmas_message);
+}
+
+.otherprojects {
+	color: var(--font-color-sub-heading);
+	text-decoration: none;
+}
+
+.yml {
+	color: var(--yml-btn);
+	text-decoration: none;
+}
+	
+
+.lyrics-lud {
+	color: var(--font-color-blue);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+	text-decoration: underline;
+}
+
+.songs {
+	color: var(--font-color-blue);
+}
+
+.songs i {
+	color: black;
+}
+
+.button {
+	background-color: #4CAF50;
+	/* Green */
+	/* Used in main page */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: space-between;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.button1 {
+	background-color: #1E90FF;
+	/* Dark Blue */
+	/* Used in lyrics directory */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: space-between;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.playlist-button {
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: space-between;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.socials-button {
+	background-color: #FF5722;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	justify-content: space-between;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.lyrics {
+	color: var(--lyrics-text-color);
+}
+
+#embed {
+	display: none;
+}
+
+.socials {
+	padding-bottom: 200px;
+}
+
+.social {
+	margin: 10px;
+}
+
+#header {
+	position: "relative";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#switch {
+	position: absolute;
+	right: 0;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+
+/* The slider */
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: gray;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	background-image: url("./images/day.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+input:checked+.slider {
+	background-color: #2196f3;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 620px) {
+	body {
+		background-image: none;
+	}
+}
+
+/* Remove underline for links on buttons, etc
+/* Other Projects link, remove underline on hyperlink */
+
+.otherprojects a:link {
+	text-decoration: none;
+}
+
+.otherprojects a:visited {
+	text-decoration: none;
+}
+
+.otherprojects a:hover {
+	text-decoration: none;
+}
+
+.songs a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+.duckyboi,
+.githubtemplate {
+	color: var(--font-color-blue);
+	font-weight: normal;
+}
+
+.duckyboi a:link {
+	text-decoration: none;
+}
+
+.duckyboi a:visited {
+	text-decoration: none;
+}
+
+.duckyboi a:hover {
+	text-decoration: none;
+}
+
+.githubtemplate a:link {
+	text-decoration: none;
+}
+
+.githubtemplate a:visited {
+	text-decoration: none;
+}
+
+.githubtemplate a:hover {
+	text-decoration: none;
+}
+
+.yml a:link {
+	text-decoration: none;
+}
+
+.yml a:visited {
+	text-decoration: none;
+}
+
+.yml a:hover {
+	text-decoration: none;
+}
