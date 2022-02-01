@@ -74,4 +74,4 @@ const lyrics = [{
         ""Stop kidnapping me""
         ],
     }
-  ];
+
